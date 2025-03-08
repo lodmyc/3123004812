@@ -41,4 +41,3 @@ def calculate_similarity(orig_path: str, copy_path: str) -> float:
     # 计算汉明距离
     distance = orig_hash.distance(copy_hash)
     return 1 - distance / 64  # Simhash位数为64
-text
